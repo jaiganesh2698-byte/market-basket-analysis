@@ -1,19 +1,6 @@
 # Market basket analysis
 
-**College project — submission package**  
-Use the block below for your cover sheet or faculty submission (edit with your details).
-
-| Field | Your entry |
-|-------|------------|
-| Student name | *[Your name]* |
-| Roll / ID | *[Your roll number]* |
-| Course & section | *[e.g. Data Mining — CS 6XX]* |
-| Institution | *[Your college name]* |
-| Submission date | *[Date]* |
-
----
-
-Small Python project for **frequent itemsets** (Apriori) and **association rules** on retail-style transaction data, using [pandas](https://pandas.pydata.org/) and [mlxtend](https://rasbt.github.io/mlxtend/).
+Python project for **frequent itemsets** (Apriori) and **association rules** on retail-style transaction data, using [pandas](https://pandas.pydata.org/) and [mlxtend](https://rasbt.github.io/mlxtend/).
 
 ## Setup
 
