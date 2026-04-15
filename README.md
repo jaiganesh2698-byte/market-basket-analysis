@@ -1,5 +1,18 @@
 # Market basket analysis
 
+**College project — submission package**  
+Use the block below for your cover sheet or faculty submission (edit with your details).
+
+| Field | Your entry |
+|-------|------------|
+| Student name | *[Your name]* |
+| Roll / ID | *[Your roll number]* |
+| Course & section | *[e.g. Data Mining — CS 6XX]* |
+| Institution | *[Your college name]* |
+| Submission date | *[Date]* |
+
+---
+
 Small Python project for **frequent itemsets** (Apriori) and **association rules** on retail-style transaction data, using [pandas](https://pandas.pydata.org/) and [mlxtend](https://rasbt.github.io/mlxtend/).
 
 ## Setup
@@ -22,6 +35,24 @@ With your own CSV and thresholds:
 ```bash
 python analyze.py --csv path/to/transactions.csv --min-support 0.15 --min-confidence 0.5 --min-lift 1.0
 ```
+
+## Output (screenshots)
+
+The following captures match a run on `data/sample_transactions.csv` with default thresholds. Plain text for the same run is also saved in [`docs/sample_output.txt`](docs/sample_output.txt) for reports or plagiarism checks.
+
+**Full terminal output**
+
+![Terminal: python analyze.py — full output](docs/images/terminal-output.png)
+
+**Frequent itemsets (Apriori)**
+
+![Frequent itemsets table](docs/images/output-frequent-itemsets.png)
+
+**Association rules (sorted by lift)**
+
+![Association rules table](docs/images/output-association-rules.png)
+
+*If you change the CSV or thresholds, run `python analyze.py` again and replace the images by capturing your new output (Terminal screenshot), or update `docs/sample_output.txt` and regenerate the figures.*
 
 ## Data format
 

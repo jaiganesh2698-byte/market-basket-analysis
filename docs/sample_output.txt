@@ -1,0 +1,24 @@
+Transactions: 15 | Items: 12
+
+--- Frequent itemsets ---
+ support        itemsets
+0.533333         (bread)
+0.533333          (milk)
+0.333333        (butter)
+0.333333 (butter, bread)
+0.333333   (bread, milk)
+0.200000          (beer)
+0.200000         (chips)
+0.200000          (eggs)
+0.200000   (beer, chips)
+0.200000    (eggs, milk)
+
+--- Association rules (sorted by lift) ---
+antecedents consequents  support  confidence     lift  leverage  conviction
+       beer       chips 0.200000       1.000 5.000000  0.160000         inf
+      chips        beer 0.200000       1.000 5.000000  0.160000         inf
+     butter       bread 0.333333       1.000 1.875000  0.155556         inf
+      bread      butter 0.333333       0.625 1.875000  0.155556    1.777778
+       eggs        milk 0.200000       1.000 1.875000  0.093333         inf
+      bread        milk 0.333333       0.625 1.171875  0.048889    1.244444
+       milk       bread 0.333333       0.625 1.171875  0.048889    1.244444
